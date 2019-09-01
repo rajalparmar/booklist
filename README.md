@@ -1,2 +1,2 @@
 # Booklist
-![BookListImage](booklist/bookListView.png)
+![BookListImage](bookListView.png)
