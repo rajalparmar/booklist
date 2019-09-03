@@ -48,9 +48,9 @@ BookListView.prototype.showAlert = function(message, className) {
 function initEventListeners() {
     document.getElementById('book-form').addEventListener('submit', function(e) {
         e.preventDefault();
-        var title = document.getElementById('title').value;;
-        var author = document.getElementById('author').value;;
-        var isbn = document.getElementById('isbn').value;;
+        var title = document.getElementById('title').value;
+        var author = document.getElementById('author').value;
+        var isbn = document.getElementById('isbn').value;
 
         var book = new Book(title, author, isbn);
         var view = new BookListView();
